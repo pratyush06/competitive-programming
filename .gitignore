@@ -1,2 +1,5 @@
 .idea/
 myenv/
+.env/
+first_program.py
+push_code_token.txt
