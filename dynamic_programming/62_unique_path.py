@@ -1,0 +1,22 @@
+class Solution:
+    def uniquePaths(self, m:int, n:int )->int:
+        # dp=[[0]*nm]*m  ## this one creates only one inner list and maintain three address if m=3 and n=2
+        dp = [[0]*n for _ in range(m)]        
+        for i in range(m):
+            dp[i][0]=1
+        
+        for col in range(n):
+            # import pdb;pdb.set_trace()
+            dp[0][col]=1
+
+        # print(dp)
+
+        for i in range(1,m):
+            for j in range(1,n):
+                dp[i][j]=dp[i-1][j]+dp[i][j-1]
+        
+        return dp[m-1][n-1]
+
+
+s=Solution()
+s.UniquePaths(3,7)
