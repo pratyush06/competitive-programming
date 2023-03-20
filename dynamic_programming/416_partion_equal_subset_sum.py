@@ -13,11 +13,25 @@ class Solution:
               if col>=nums[row-1] and dp[row-1][col-nums[row-1]]+nums[row-1]>dp[row][col]:
                   dp[row][col]=dp[row-1][col-nums[row-1]]+nums[row-1]
         
+        ## code to find selected elements
+        # i=len(nums)
+        # col=target
+        # selected_items=[]
+        # while i>0 and col>0:
+    
+        #     if dp[i][col]==dp[i-1][col]:
+        #         i-=1
+        #     else:
+        #         selected_items.append(nums[i-1])
+        #         col-=nums[i-1]
+        #         i-=1
+        # import pdb;pdb.set_trace()
         if dp[len(nums)][target]==target:
             return True
         else:
             return False
                 
+
         # pass
 
 

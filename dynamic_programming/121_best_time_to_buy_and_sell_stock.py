@@ -15,7 +15,6 @@ class Solution:
             if (prices[i]-dp[i-1])>profit:
                 profit=prices[i]-dp[i-1]
             
-        
         return profit
 
 
