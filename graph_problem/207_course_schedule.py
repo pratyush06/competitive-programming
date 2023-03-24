@@ -1,3 +1,5 @@
+#topological sort
+
 import queue
 class Solution:
     def canFinish(self, numCourses: int, prerequisites) -> bool:
