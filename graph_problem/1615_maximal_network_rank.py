@@ -54,19 +54,6 @@ class Solution:
         # import pdb;pdb.set_trace()
         return max
             
-                
-                
-                    
-                
-                    
-        # import pdb;pdb.set_trace()
-        
-        # max=None
-        # for row in roads:
-        #     if max is None or max<(rank[row[0]]+rank[row[1]]):
-        #         max=(rank[row[0]]+rank[row[1]])
-        
-        # return max
             
         
     

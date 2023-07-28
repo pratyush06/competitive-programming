@@ -1,38 +1,11 @@
 class Solution:
     def solveSudoku(self,  board: list[list[str]]) -> None:
 
-
-        # for i in board:
-        #     for j in range(len(i)):
-
-
         def place(curr_row, curr_col, curr_num):
             vertical_board=list(zip(*board))
             if str(curr_num) in board[curr_row] or str(curr_num) in vertical_board[curr_col]:
                 return False
             return True
-        
-        # def backtrack():
-        #     for curr_row in range(len(board)):
-        #         for curr_col in range(len(board)):
-
-        #             if board[curr_row][curr_col]=='.':
-        #                 for curr_num
-        #                 place(curr_row, curr_col)
-
-
-        # def backtrack(curr_row):
-        #     if curr_row==len(board):
-        #         return board
-             
-        #     for curr_col in range(len(board[curr_row])):
-        #         if board[curr_row][curr_col]=='.':
-        #             for curr_num in range(1, 10):
-        #                 if place(curr_row, curr_col, curr_num):
-        #                     board[curr_row][curr_col]=curr_num
-            
-        #             bo
-        #     backtrack(curr_row+1)
 
         ans=False
         def backtrack(curr_row, curr_col):

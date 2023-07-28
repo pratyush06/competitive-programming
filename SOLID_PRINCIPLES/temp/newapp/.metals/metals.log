@@ -1,0 +1,153 @@
+2023.06.02 11:01:37 INFO  Started: Metals version 0.11.12 in workspace '/home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp' for client Visual Studio Code 1.78.2.[0m
+Jun 02, 2023 11:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 02, 2023 11:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 02, 2023 11:01:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/.metals/metals (H2 2.1)
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.029s)
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 02, 2023 11:01:38 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.127s)
+2023.06.02 11:01:38 INFO  time: initialize in 1.08s[0m
+2023.06.02 11:01:42 WARN  Build server is not auto-connectable.[0m
+2023.06.02 11:02:04 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/project/Dependencies.scala[0m
+2023.06.02 11:02:36 INFO  no build target found for /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/project/Dependencies.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.06.02 11:02:37 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2023.06.02 11:02:37 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2023.06.02 11:02:37 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+Jun 02, 2023 11:02:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+2023.06.02 11:02:37 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 2.26s[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 2.09s[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 34s[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 1.98s[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 2.52s[0m
+2023.06.02 11:02:39 INFO  time: code lens generation in 2.55s[0m
+2023.06.02 11:02:46 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:03:47 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:03:49 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:03:53 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:03:55 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:00 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:03 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:10 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:39 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:45 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+Jun 02, 2023 11:04:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.02 11:04:49 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:53 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:54 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:04:56 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:05:05 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:05:44 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:06:06 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:06:35 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:08:48 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+Jun 02, 2023 11:08:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 425
+2023.06.02 11:08:53 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/src/main/scala/example/Hello.scala[0m
+2023.06.02 11:10:49 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:10:51 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:10:52 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:10:55 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:10:56 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:00 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:00 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:00 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:03 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:04 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:08 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:08 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:10 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:10 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:15 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:15 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:18 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:19 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:21 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:21 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:26 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:26 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:11:33 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:11:33 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 11:12:01 WARN  no build target for: /home/neosoft/workspace/competitive-programming/SOLID_PRINCIPLES/temp/newapp/build.sbt[0m
+2023.06.02 11:12:01 INFO  skipping build import with status 'Dismissed'[0m
+2023.06.02 18:44:42 INFO  Shutting down server[0m
+2023.06.02 18:44:42 INFO  shutting down Metals[0m
+2023.06.02 18:44:42 INFO  Exiting server[0m

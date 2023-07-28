@@ -8,6 +8,7 @@ class Solution:
             return
         
         for curr in orignal:
+            # import pdb;pdb.set_trace()
             if curr in sol:
                 continue
             sol.append(curr)
@@ -17,7 +18,7 @@ class Solution:
 
 s=Solution()
 final_sol=[]
-s.find(['a','b', 'c'])
+s.find([1,2])
 print(final_sol)
 
         

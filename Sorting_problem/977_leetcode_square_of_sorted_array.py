@@ -1,8 +1,3 @@
-from array import array
-from heapq import merge
-from turtle import left, right
-
-
 # try merge sort with quick sort got TLE error
 class Solution:
     def sortedSquares(self, nums: list[int]) -> list[int]:
