@@ -1,10 +1,8 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         pal_str = ''
-        even_str = False
-        if len(s) % 2 == 0:
-            even_str = True
         for i in range(len(s)):
+            import pdb;pdb.set_trace()
             left = i
             right = i
             while not (left < 0) and right < len(s) and s[left] == s[right]:

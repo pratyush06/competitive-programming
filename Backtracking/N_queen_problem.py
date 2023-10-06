@@ -29,7 +29,7 @@ rows_and_cols=int(input('please enter size of chessboard: '))
 rows=[]
 final_sol=[]
 s.backtrack(rows_and_cols, rows)
-print(len(final_sol))
+print(final_sol)
 
 
 

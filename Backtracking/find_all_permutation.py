@@ -1,5 +1,4 @@
 #given list find all permutation of that list ex:-[1,2]==[[1,2],[2,1]]
-import math
 
 class Solution:
     def find(self, orignal, sol=[]):
@@ -18,7 +17,6 @@ class Solution:
 
 s=Solution()
 final_sol=[]
-s.find([1,2])
+s.find([1,2,3])
 print(final_sol)
-
         
