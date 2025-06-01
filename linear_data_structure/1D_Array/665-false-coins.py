@@ -1,3 +1,7 @@
+# intersection update method in set data structure insert common element from both
+# diffrence update remove common element for target set 
+# set add method add single element
+# while update add a iterable e.g list
 no_of_test_cases = int(input())
 
 for i in range(no_of_test_cases):
