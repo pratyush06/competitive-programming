@@ -1,4 +1,5 @@
 #TLE try to imporve solution
+# try again using linked list
 
 while True:
     no_of_solders, loss_reports = map(int, input().split())
