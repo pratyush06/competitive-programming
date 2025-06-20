@@ -1,5 +1,5 @@
 import sys
-
+## verdict is TLE
 class Node:
     def __init__(self, data=None):
         self.data = data
