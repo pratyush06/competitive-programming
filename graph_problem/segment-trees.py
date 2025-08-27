@@ -1,3 +1,5 @@
+#Note: Segment Tree is only be used if value of array is frequently update if array is static better DP solution exists
+
 class SegmentTree:
     def __init__(self, arr):
         self.arr = arr.copy()
@@ -24,8 +26,11 @@ class SegmentTree:
     
     def _rmq(self, p, L, R, i, j):
         if i>R or j<L:
+            # i > R: The query range starts after the segment ends (query is entirely to the right).
+            # j < L: The query range ends before the segment starts (query is entirely to the left).
             return -1
         if L>=i and R<=j:
+            # The condition L >= i and R <= j is designed to identify cases where the entire segment [L, R] lies within the query range [i, j]
             return self.st[p]
     
         p1 = self._rmq(self._left(p), L, (L+R)//2, i, j)
