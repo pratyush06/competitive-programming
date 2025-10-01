@@ -1,3 +1,28 @@
+# --- [PYTHON PITFALL & SOLUTION] Mutable Default Arguments ---
+#
+# THE PROBLEM: A default argument like `my_list=[]` or `my_dict={}` is created
+# only ONCE, when the function is first defined. This single object is then
+# shared across ALL calls that use the default. Modifying it in one call
+# will unexpectedly affect all future calls.
+#
+#   def buggy_func(item, my_list=[]):  # This list is SHARED!
+#       my_list.append(item)
+#       return my_list
+#
+#   # >>> buggy_func(1)
+#   # [1]
+#   # >>> buggy_func(2)  <-- Unexpectedly returns [1, 2]
+#
+# THE SOLUTION: The standard Python idiom is to use an immutable default like
+# `None`. Inside the function, we check for `None` and create a NEW list or
+# dict. This guarantees that every call that relies on the default gets its
+# own fresh, independent object.
+#
+# This line below implements that correct and safe pattern.
+# if current_pos is None:
+#     current_pos = []
+
+
 import copy
 
 def place(curr_idx, current_pos):
