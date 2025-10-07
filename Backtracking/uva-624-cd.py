@@ -1,5 +1,6 @@
-## replace this comment with how to calculate time complexity of backtracking problem
-
+"""
+Backtracking time = explored states * work per state; model recursion as a search tree with depth d (number of decisions) and branching b (max choices per step), so worst-case states ≈ O(b^d) or, when choices shrink like permutations, about O(n!); then multiply by the per-node work for safety checks or updates, and if enumerating all solutions include output-size costs (e.g., subsets need O(2^n* n) to print); quick heuristics: n steps with k choices each ⇒ O(k^n), choose among remaining each step ⇒ O(n!), include/exclude per item ⇒ O(2^n), and listing outputs costs at least linear in total outputs; space is usually call stack O(d) plus any bookkeeping like visited/diagonals O(n), and storing all solutions scales with output size.
+"""
 
 ## can place function
 def place(li, current_index, current_list, N):
