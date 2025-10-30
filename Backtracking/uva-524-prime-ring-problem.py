@@ -1,3 +1,5 @@
+# we can further reduce time complexity by calculating which all are prime number's till sum of n before hand using sieve of eratosthenes algorithm
+# which will elemenate all the for loop we have inside place function further improving time complexity
 import copy
 def place(idx, curr, n):
     if idx in curr:
