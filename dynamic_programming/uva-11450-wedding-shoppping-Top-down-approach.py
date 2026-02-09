@@ -1,3 +1,6 @@
+# refrence https://gemini.google.com/share/e84526dd6c98
+
+
 prices = []
 C = None
 M = None
@@ -19,6 +22,17 @@ def backtrack(money, garment):
             ans = max(ans, backtrack(money-i, garment+1))
     memo[money][garment]=ans
     return ans
+
+### reference function to understand how to get optimal choices along with optimal answer
+# def reconstruct(money, garment_id):
+#     if garment_id == C:
+#         return []
+
+#     target = shop(money, garment_id)
+#     for p in prices[garment_id]:
+#         if money >= p and shop(money - p, garment_id + 1) == target:
+#             # If this choice leads to our optimal target, it's a winner
+#             return [p] + reconstruct(money - p, garment_id + 1)
 
 def main():
     global prices, C, M, memo
