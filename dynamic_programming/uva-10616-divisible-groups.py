@@ -1,3 +1,16 @@
+# --- HIGHER DIMENSION INITIALIZATION RULE ---
+# Start from RIGHT (Innermost/Columns) to LEFT (Outermost/Books)
+# Logic: [Outermost] -> [Middle] -> [Innermost]
+# Format: [[[ Value for _ in RIGHT ] for _ in MIDDLE ] for _ in LEFT ]
+#
+# Example (3D): 200 items, 10 count, 20 remainder
+# memo = [[[None for _ in range(20)] for _ in range(11)] for _ in range(201)]
+# Access: memo[item_idx][count][remainder]
+#
+# WARNING: Always use 'for _ in range()' to create unique lists in memory.
+# DO NOT USE: [[None] * D] * M (This creates references, not unique rows!)
+# ---------------------------------------------
+
 def backtrack(elements, curr_idx, rem, no_of_element, memo, divisor, selected_ele):
     if curr_idx is None:
         curr_idx = 0
