@@ -20,8 +20,7 @@
 
 ## Review Problems
 
-- `two_pointers/11_container_with_most_water.py`
+- `two_pointers/11_container_with_most_water_two_pointers.py`
 - `two_pointers/3sum_two_pointer.py`
-- `two_pointers/88_merge_sorted_Array.py`
+- `two_pointers/88_merge_sorted_array_two_pointers.py`
 - `two_pointers/350_intersection_two_array.py`
-

@@ -31,17 +31,17 @@ Keep this list short. These are the problems worth revisiting when interview tim
 
 | Problem | Pattern | File |
 | --- | --- | --- |
-| Course Schedule | Graph cycle detection / topological sort | [graph_problem/207_course_schedule.py](graph_problem/207_course_schedule.py) |
-| Number of Islands | DFS / BFS flood fill | [graph_problem/200_number_of_islands.py](graph_problem/200_number_of_islands.py) |
-| Network Delay Time | Dijkstra / shortest path | [graph_problem/743_network_delay_time.py](graph_problem/743_network_delay_time.py) |
-| Wormholes | Bellman-Ford / negative cycle | [graph_problem/uva-558-wormholes.py](graph_problem/uva-558-wormholes.py) |
-| Longest Increasing Subsequence | DP / binary search | [dynamic_programming/300_longest_incresing_subsequence.py](dynamic_programming/300_longest_incresing_subsequence.py) |
-| Partition Equal Subset Sum | 0/1 knapsack | [dynamic_programming/416_partion_equal_subset_sum.py](dynamic_programming/416_partion_equal_subset_sum.py) |
-| Maximum Subarray | Kadane's algorithm | [dynamic_programming/53_maximum_subarray.py](dynamic_programming/53_maximum_subarray.py) |
-| Combination Sum | Backtracking | [Backtracking/39_combination_sum.py](Backtracking/39_combination_sum.py) |
-| N Queens | Backtracking constraints | [Backtracking/N_queen_problem.py](Backtracking/N_queen_problem.py) |
-| Container With Most Water | Two pointers | [two_pointers/11_container_with_most_water.py](two_pointers/11_container_with_most_water.py) |
-| Merge Sorted Array | Two pointers from end | [two_pointers/88_merge_sorted_Array.py](two_pointers/88_merge_sorted_Array.py) |
+| Course Schedule | Graph cycle detection / topological sort | [graph_problem/207_course_schedule_topological_sort.py](graph_problem/207_course_schedule_topological_sort.py) |
+| Number of Islands | DFS / BFS flood fill | [graph_problem/200_number_of_islands_dfs_flood_fill.py](graph_problem/200_number_of_islands_dfs_flood_fill.py) |
+| Network Delay Time | Dijkstra / shortest path | [graph_problem/743_network_delay_time_dijkstra.py](graph_problem/743_network_delay_time_dijkstra.py) |
+| Wormholes | Bellman-Ford / negative cycle | [graph_problem/uva_558_wormholes_bellman_ford.py](graph_problem/uva_558_wormholes_bellman_ford.py) |
+| Longest Increasing Subsequence | DP / binary search | [dynamic_programming/300_longest_increasing_subsequence_dp.py](dynamic_programming/300_longest_increasing_subsequence_dp.py) |
+| Partition Equal Subset Sum | 0/1 knapsack | [dynamic_programming/416_partition_equal_subset_sum_knapsack.py](dynamic_programming/416_partition_equal_subset_sum_knapsack.py) |
+| Maximum Subarray | Kadane's algorithm | [dynamic_programming/53_maximum_subarray_kadane.py](dynamic_programming/53_maximum_subarray_kadane.py) |
+| Combination Sum | Backtracking | [Backtracking/39_combination_sum_backtracking.py](Backtracking/39_combination_sum_backtracking.py) |
+| N Queens | Backtracking constraints | [Backtracking/n_queen_problem_backtracking.py](Backtracking/n_queen_problem_backtracking.py) |
+| Container With Most Water | Two pointers | [two_pointers/11_container_with_most_water_two_pointers.py](two_pointers/11_container_with_most_water_two_pointers.py) |
+| Merge Sorted Array | Two pointers from end | [two_pointers/88_merge_sorted_array_two_pointers.py](two_pointers/88_merge_sorted_array_two_pointers.py) |
 
 ## Solution Header Template
 
@@ -60,9 +60,9 @@ Common traps:
 
 ## Non-Interview Learning Areas
 
-These folders are useful learning material, but not part of the fastest DSA interview review path:
+These folders are useful learning material, but they live outside the fastest DSA interview review path:
 
-- `flask_tutorials/`
-- `DRF_projects/`
-- `dbt_projects/`
+- `learning_projects/flask_tutorials/`
+- `learning_projects/DRF_projects/`
+- `learning_projects/dbt_projects/`
 - `SOLID_PRINCIPLES/`

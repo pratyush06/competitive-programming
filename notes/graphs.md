@@ -28,10 +28,9 @@
 
 ## Review Problems
 
-- `graph_problem/200_number_of_islands.py`
-- `graph_problem/207_course_schedule.py`
-- `graph_problem/743_network_delay_time.py`
-- `graph_problem/uva-558-wormholes.py`
+- `graph_problem/200_number_of_islands_dfs_flood_fill.py`
+- `graph_problem/207_course_schedule_topological_sort.py`
+- `graph_problem/743_network_delay_time_dijkstra.py`
+- `graph_problem/uva_558_wormholes_bellman_ford.py`
 - `graph_problem/union-find.py`
 - `graph_problem/classical_problem/topological_sort.py`
-

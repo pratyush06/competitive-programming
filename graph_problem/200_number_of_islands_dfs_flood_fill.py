@@ -1,3 +1,12 @@
+"""
+Pattern: DFS / BFS flood fill
+Recognition cue: Grid contains connected components of land cells.
+Key idea: Each unvisited land cell starts one island; flood-fill it to avoid recounting.
+Time: O(rows * cols)
+Space: O(rows * cols) worst case recursion/visited depth
+Common traps: Marking visited too late, boundary mistakes, and using globals accidentally.
+"""
+
 #DFS
 class Solution:
     def numIslands(self, grid) -> int:

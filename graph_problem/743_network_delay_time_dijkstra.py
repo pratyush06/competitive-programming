@@ -1,3 +1,12 @@
+"""
+Pattern: Dijkstra shortest path
+Recognition cue: Weighted directed graph with non-negative edge weights.
+Key idea: Expand the currently cheapest node and relax outgoing edges.
+Time: O((V + E) log V)
+Space: O(V + E)
+Common traps: Using Dijkstra with negative weights, not skipping stale heap entries, and mixing 1-indexed nodes.
+"""
+
 #Dijkistra's algorithm
 
 import collections

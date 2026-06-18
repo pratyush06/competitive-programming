@@ -1,3 +1,12 @@
+"""
+Pattern: Two pointers
+Recognition cue: Need maximize area between two endpoints.
+Key idea: Move the shorter wall because the width only decreases.
+Time: O(n)
+Space: O(1)
+Common traps: Moving the taller wall and shadowing built-ins like max.
+"""
+
 class Solution:
     def maxArea(self, height) -> int:
         left, right=0, len(height)-1

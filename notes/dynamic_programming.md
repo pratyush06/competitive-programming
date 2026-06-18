@@ -23,7 +23,7 @@
 ## Review Problems
 
 - `dynamic_programming/70_climbing_stairs.py`
-- `dynamic_programming/53_maximum_subarray.py`
-- `dynamic_programming/300_longest_incresing_subsequence.py`
-- `dynamic_programming/416_partion_equal_subset_sum.py`
+- `dynamic_programming/53_maximum_subarray_kadane.py`
+- `dynamic_programming/300_longest_increasing_subsequence_dp.py`
+- `dynamic_programming/416_partition_equal_subset_sum_knapsack.py`
 - `dynamic_programming/uva-11450-wedding-shopping-bottom-up-approach.py`

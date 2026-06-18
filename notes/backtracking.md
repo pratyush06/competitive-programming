@@ -21,9 +21,8 @@
 
 ## Review Problems
 
-- `Backtracking/39_combination_sum.py`
+- `Backtracking/39_combination_sum_backtracking.py`
 - `Backtracking/46_permutation.py`
-- `Backtracking/N_queen_problem.py`
+- `Backtracking/n_queen_problem_backtracking.py`
 - `Backtracking/Sudoku_Solver.py`
 - `Backtracking/uva-524-prime-ring-problem.py`
-

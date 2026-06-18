@@ -1,3 +1,12 @@
+"""
+Pattern: 0/1 knapsack feasibility
+Recognition cue: Need split numbers into two equal-sum groups.
+Key idea: If total is even, check whether a subset can reach total / 2.
+Time: O(n * target)
+Space: O(n * target) in this version
+Common traps: Iteration direction when optimizing to 1D and not rejecting odd totals first.
+"""
+
 class Solution:
     def canPartition(self, nums) -> bool:
         if sum(nums)%2!=0:

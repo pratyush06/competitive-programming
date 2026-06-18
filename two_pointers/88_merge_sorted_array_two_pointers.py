@@ -1,3 +1,12 @@
+"""
+Pattern: Two pointers from the end
+Recognition cue: Merge two sorted arrays in-place with extra space at the end of nums1.
+Key idea: Fill from the back so unmerged nums1 values are not overwritten.
+Time: O(m + n)
+Space: O(1)
+Common traps: Merging from the front and forgetting remaining nums2 values.
+"""
+
 class Solution:
     def merge(self, nums1, m: int, nums2, n: int) -> None:
         i = int(m - 1)

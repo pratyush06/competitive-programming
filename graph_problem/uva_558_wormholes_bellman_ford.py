@@ -1,3 +1,12 @@
+"""
+Pattern: Bellman-Ford negative cycle detection
+Recognition cue: Need detect whether time/weight cycles can keep decreasing distance.
+Key idea: Relax edges V - 1 times, then check whether any edge can still improve.
+Time: O(V * E)
+Space: O(V)
+Common traps: Forgetting disconnected components if the problem requires global cycle detection.
+"""
+
 import sys
 
 def solve():

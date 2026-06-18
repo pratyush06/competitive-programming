@@ -1,3 +1,12 @@
+"""
+Pattern: Backtracking with constraints
+Recognition cue: Need place one queen per row without column or diagonal conflicts.
+Key idea: Try each column for the next row, recurse only when the placement is valid, then undo.
+Time: O(n!)
+Space: O(n)
+Common traps: Diagonal checks and relying on global result state.
+"""
+
 #find number of ways we can place 8 queen in chessboard
 
 

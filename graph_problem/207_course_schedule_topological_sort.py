@@ -1,3 +1,12 @@
+"""
+Pattern: Topological sort / cycle detection
+Recognition cue: Prerequisites form a directed dependency graph.
+Key idea: Repeatedly take nodes with indegree 0; all courses finish only if every node is taken.
+Time: O(V + E)
+Space: O(V + E)
+Common traps: Treating edges backward, forgetting disconnected courses, and leaving debug prints in submissions.
+"""
+
 #topological sort
 
 import queue

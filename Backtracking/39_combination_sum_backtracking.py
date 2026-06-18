@@ -1,3 +1,12 @@
+"""
+Pattern: Backtracking / combination search
+Recognition cue: Need all combinations that sum to a target, with reusable candidates.
+Key idea: Build a partial combination, recurse while sum is below target, and undo the choice.
+Time: Exponential
+Space: O(target / min(candidate)) recursion depth, plus output
+Common traps: Duplicate combinations, missing pruning, and appending mutable state without copying.
+"""
+
 import copy
 class Solution:
     def place(self, target, curr_sol,final, curr_ele):
